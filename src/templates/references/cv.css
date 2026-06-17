@@ -1,0 +1,85 @@
+@page {
+  size: A4;
+  margin: 16mm;
+}
+
+:root {
+  --ink: #172033;
+  --muted: #526071;
+  --line: #d9e1ea;
+  --accent: #156f7a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+}
+
+.page {
+  max-width: 184mm;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 2px solid var(--accent);
+  margin-bottom: 7mm;
+  padding-bottom: 5mm;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  line-height: 1.1;
+}
+
+.title,
+.reference p {
+  color: var(--muted);
+}
+
+.title {
+  font-size: 12.5pt;
+  margin-top: 1.5mm;
+}
+
+h2 {
+  color: var(--accent);
+  font-size: 13pt;
+  margin-bottom: 4mm;
+}
+
+.reference {
+  break-inside: avoid;
+  border-left: 2px solid var(--accent);
+  margin-bottom: 5mm;
+  padding-left: 3mm;
+}
+
+.reference h3 {
+  font-size: 11pt;
+  margin-bottom: 1mm;
+}
+
+.reference p {
+  margin-top: 0.8mm;
+}
+
+@media print {
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

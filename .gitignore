@@ -1,0 +1,37 @@
+node_modules/
+build/
+.cache/
+.turbo/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+src/data/contact.local.json
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated CV files are intentionally committed for this project.
+!dist/
+!dist/**
+dist/*.html
+
+# Ignore any local source CV PDFs that should not be committed.
+/*.pdf
+!/dist/*.pdf

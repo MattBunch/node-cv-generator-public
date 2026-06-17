@@ -1,0 +1,27 @@
+{
+  "contact": [
+    {
+      "label": "Email",
+      "value": "matt@example.test"
+    },
+    {
+      "label": "Phone",
+      "value": "+64 21 000 0000"
+    }
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "value": "https://www.linkedin.com/in/example"
+    },
+    {
+      "label": "GitHub",
+      "value": "https://github.com/example"
+    },
+    {
+      "label": "Portfolio",
+      "value": "https://example.test"
+    }
+  ],
+  "location": "Wellington, New Zealand"
+}

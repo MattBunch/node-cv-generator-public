@@ -1,0 +1,143 @@
+{
+  "name": "Alex Rivera",
+  "title": "Node.js Developer",
+  "contact": [
+    {
+      "label": "Email",
+      "value": "alex.rivera@example.test"
+    },
+    {
+      "label": "Phone",
+      "value": "+64 4 555 0101"
+    }
+  ],
+  "location": "Wellington, New Zealand",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/alex-rivera-sample"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/example/alex-rivera-cv"
+    },
+    {
+      "label": "Portfolio",
+      "value": "alex-rivera.example.test"
+    }
+  ],
+  "profile": "Node.js developer with practical experience building APIs, dashboards, data workflows, and document automation tools. Comfortable across TypeScript, databases, cloud deployment, and test automation, with a focus on maintainable systems and reliable delivery.",
+  "experience": [
+    {
+      "title": "Node.js Developer",
+      "employer": "Northstar Sample Labs",
+      "date": "Mar 2021 - Present",
+      "overview": "Worked in a product engineering team across TypeScript frontends, Node.js services, PostgreSQL databases, and cloud-hosted document workflows.",
+      "bullets": [
+        "Built a TypeScript export service that generated PDF and DOCX reports from structured JSON data.",
+        "Reduced manual document preparation time by 45 percent through reusable templates and validation checks.",
+        "Improved API reliability by adding focused integration tests and clearer error handling.",
+        "Reviewed pull requests, documented runbooks, and mentored new contributors on project conventions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-End Development",
+      "items": [
+        "Vue 3",
+        "Accessible HTML and CSS",
+        "Vitest and jsdom"
+      ]
+    },
+    {
+      "name": "Back-End Development",
+      "items": [
+        "Node.js and TypeScript services",
+        "REST APIs",
+        "PostgreSQL",
+        "Zod validation"
+      ]
+    },
+    {
+      "name": "Document Automation",
+      "items": [
+        "PDF generation with Playwright",
+        "DOCX generation",
+        "Shared render models"
+      ]
+    },
+    {
+      "name": "Cloud and DevOps",
+      "items": [
+        "GitHub Actions",
+        "Environment-based configuration",
+        "Structured logging"
+      ]
+    },
+    {
+      "name": "Collaboration",
+      "items": [
+        "Requirements clarification",
+        "Code review",
+        "Technical documentation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Harbour City Institute - Graduate Diploma in Software Development"
+    },
+    {
+      "name": "Open Polytechnic Sample Campus - Bachelor of Information Systems"
+    },
+    {
+      "name": "North Coast High School - Digital Technologies Certificate",
+      "includeInApplicationCv": false
+    }
+  ],
+  "certifications": [
+    "Sample Cloud Practitioner Certificate"
+  ],
+  "projects": [
+    {
+      "name": "Sample CV Generator",
+      "technologies": [
+        "Node.js",
+        "TypeScript",
+        "Playwright",
+        "DOCX",
+        "Zod"
+      ],
+      "bullets": [
+        "Built a sample-first CV generator that renders ATS and polished outputs from one structured data file.",
+        "Added export smoke tests that inspect generated PDF and DOCX files for expected public-safe content."
+      ]
+    }
+  ],
+  "outputOptions": {
+    "references": {
+      "applicationMode": "omit"
+    }
+  },
+  "references": [
+    {
+      "name": "Jordan Sample",
+      "details": [
+        "Engineering Manager at Northstar Sample Labs",
+        "100 Example Quay, Wellington, 6011, New Zealand",
+        "northstar-sample.example.test",
+        "Phone: +64 4 555 0110",
+        "Email: jordan.sample@example.test"
+      ]
+    },
+    {
+      "name": "Priya Example",
+      "details": [
+        "Former Team Lead at Beacon Demo Systems",
+        "Phone: +64 4 555 0111",
+        "Email: priya.example@example.test"
+      ]
+    }
+  ]
+}

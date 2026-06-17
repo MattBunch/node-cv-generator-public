@@ -21,6 +21,11 @@ test-results/
 playwright-report/
 blob-report/
 
+# Slidev onboarding build outputs
+docs/onboarding/node_modules/
+docs/onboarding/dist/
+docs/onboarding/onboarding.pdf
+
 # OS/editor
 .DS_Store
 Thumbs.db

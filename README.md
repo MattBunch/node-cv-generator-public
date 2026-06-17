@@ -35,6 +35,21 @@ Legacy commands still generate:
 pnpm install
 ```
 
+## Developer Onboarding
+
+Slidev is the developer onboarding path for this repository. Start the local onboarding deck with:
+
+```sh
+pnpm onboarding
+```
+
+Build or export the deck when you need a static artifact:
+
+```sh
+pnpm onboarding:build
+pnpm onboarding:pdf
+```
+
 ## Generate Documents
 
 ```sh
